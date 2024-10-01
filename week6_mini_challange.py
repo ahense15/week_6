@@ -1,4 +1,3 @@
-
 #######################################Dictionaries###############################
 # Dictionaries Practice #1
 # Create a dictionary called fruits with the following key-value pairs:
@@ -8,13 +7,28 @@
 # cherry --> red
 # watermelon --> green
 # Display the dictionary on the screen.
+fruits = {
+    "apple":"red",
+    "banana":"yellow",
+    "mango":"green",
+    "cherry":"red",
+    "watermelon":"green"
+}
+
+fruitKeys = fruits.keys()
+fruitValues = fruits.values()
+
+for key, value in fruits.items():
+    print(f"{key}: {value}")
 
 # Dictionaries Practice #1
 # Create a dictionary called my_dict that stores the following information about a person:
-# name: Karen
-# surname: Jurgens
-# age: 35
-# occupation: Journalist
+my_dict = {
+    "name": "Karen",
+    "surname": "Jurgens",
+    "age": "35",
+    "occupation": "Journalist"
+}
 # The names of the keys and values must be equal to the ones indicated above.
 
 #   Dictionaries Practice #2
